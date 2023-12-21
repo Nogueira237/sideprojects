@@ -20,7 +20,6 @@ main{
 }
 /*Hora do rush*/
 body > main > section#horadorush{
-    left: 50%;
     background-color: white;
     width: 280px;
     text-align: center;
@@ -31,7 +30,7 @@ body > main > section#horadorush{
     display: block;
 }
 body > main > section#horadorush:hover{
-    border: 1px solid rgb(255, 255, 255);
+    outline: 1px solid rgb(255, 255, 255);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.700);
     transition: transform 0.5s;
     transform: scale(105%);
@@ -70,7 +69,6 @@ body > main > section > div#text1 > a:hover{
 }
 /*OBGLETRAP 1*/
 body > main > section#obgletrap1{
-    left: 50%;
     background-color: white;
     width: 280px;
     text-align: center;
@@ -81,7 +79,7 @@ body > main > section#obgletrap1{
     display: block;
 }
 body > main > section#obgletrap1:hover{
-    border: 1px solid rgb(255, 255, 255);
+    outline: 1px solid rgb(255, 255, 255);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.700);
     transition: transform 0.5s;
     transform: scale(105%);
@@ -92,6 +90,7 @@ body > main > section > div#img2{
     background-size: cover;
     height: 280px;
     background-position: center center;
+    box-sizing: border-box;
 }
 body > main > section > div#text2{
     background-color: #24D056;
@@ -122,7 +121,6 @@ body > main > section > div#text2 > a:hover{
 }
 /*OBGLETRAP2*/
 body > main > section#obgletrap2{
-    left: 50%;
     background-color: white;
     width: 280px;
     text-align: center;
@@ -133,7 +131,7 @@ body > main > section#obgletrap2{
     display: block;
 }
 body > main > section#obgletrap2:hover{
-    border: 1px solid rgb(255, 255, 255);
+    outline: 1px solid rgb(255, 255, 255);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.700);
     transition: transform 0.5s;
     transform: scale(105%);
@@ -143,6 +141,7 @@ body > main > section > div#img3{
     background-size: cover;
     height: 280px;
     background-position: center center;
+    box-sizing: border-box;
 }
 body > main > section > div#text3{
     background-color: #650101;
