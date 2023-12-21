@@ -15,10 +15,12 @@ height: 100vh;
 }
 body, html{
     background-color: #7300E5;
+    height: 1800px;
 }
 main{
     position: relative;
     margin-top: 15vh;
+    width: 96vw;
 }
 main > section{
     margin: 10vh;
@@ -36,6 +38,10 @@ body > main > section#horadorush{
     box-shadow: 0px 0px 10px black;
     transform: translate(-50%); 
     display: block;
+}
+body > main > section#horadorush:hover{
+    
+
 }
 body > main > section > div#img1{
     background: black url(../imagens/horadorushcerto.jpg) no-repeat;
