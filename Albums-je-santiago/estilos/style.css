@@ -7,44 +7,34 @@
     font-family: 'Roboto', sans-serif;
     padding: 0px;
     margin: 0px;
-}
-.container{
-display: flex;
-flex-direction: column;
-height: 100vh;
+    cursor: default;
 }
 body, html{
     background-color: #7300E5;
-    height: 1800px;
 }
+
 main{
-    position: relative;
     margin-top: 15vh;
     width: 96vw;
-}
-main > section{
-    margin: 10vh;
+    height: 1600px;
 }
 /*Hora do rush*/
 body > main > section#horadorush{
-    position: absolute;
     left: 50%;
     background-color: white;
     width: 280px;
     text-align: center;
-    margin: auto;
+    margin: 50px auto;
     border-radius: 25px;
     overflow: hidden;
     box-shadow: 0px 0px 10px black;
-    transform: translate(-50%); 
     display: block;
 }
 body > main > section#horadorush:hover{
-    position: absolute;
-    left: 50%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.700);
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.700);
     transition: transform 0.5s;
-    transform: translate(-50%) scale(105%); 
+    transform: scale(105%);
 }
 body > main > section > div#img1{
     background: black url(../imagens/horadorushcerto.jpg) no-repeat;
@@ -76,27 +66,26 @@ body > main > section > div#text1 > a{
 }
 body > main > section > div#text1 > a:hover{
     background-color: #520021;
+    cursor: pointer;
 }
 /*OBGLETRAP 1*/
 body > main > section#obgletrap1{
-    position: absolute;
     left: 50%;
     background-color: white;
     width: 280px;
     text-align: center;
-    margin: auto;
+    margin: 50px auto;
     border-radius: 25px;
     overflow: hidden;
     box-shadow: 0px 0px 10px black;
-    transform: translate(-50%, 120%);
     display: block;
 }
 body > main > section#obgletrap1:hover{
-    position: absolute;
-    left: 50%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.700);
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.700);
     transition: transform 0.5s;
-    transform: translate(-50%, 120%) scale(105%); 
+    transform: scale(105%);
+
 }
 body > main > section > div#img2{
     background: black url(../imagens/obgletrap1certo.jpg) no-repeat;
@@ -129,27 +118,25 @@ body > main > section > div#text2 > a{
 }
 body > main > section > div#text2 > a:hover{
     background-color: #005a1a;
+    cursor: pointer;
 }
 /*OBGLETRAP2*/
 body > main > section#obgletrap2{
-    position: absolute;
     left: 50%;
     background-color: white;
     width: 280px;
     text-align: center;
-    margin: auto;
+    margin: 50px auto;
     border-radius: 25px;
     overflow: hidden;
     box-shadow: 0px 0px 10px black;
-    transform: translate(-50%,220%);
     display: block;
 }
 body > main > section#obgletrap2:hover{
-    position: absolute;
-    left: 50%;
+    border: 1px solid rgb(255, 255, 255);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.700);
     transition: transform 0.5s;
-    transform: translate(-50%, 220%) scale(105%); 
+    transform: scale(105%);
 }
 body > main > section > div#img3{
     background: black url(../imagens/obgletrap2certo.jpg) no-repeat;
@@ -182,4 +169,19 @@ body > main > section > div#text3 > a{
 }
 body > main > section > div#text3 > a:hover{
     background-color: #1a0000;
+    cursor: pointer;
+}
+footer{
+    background-color: #37006e;
+    color: white;
+    height: 4vh;  
+}
+footer > div{
+    padding: 5px;
+    text-align: center;
+}
+footer > div > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
 }
