@@ -40,8 +40,12 @@ body > main > section#horadorush{
     display: block;
 }
 body > main > section#horadorush:hover{
-    
-
+    position: absolute;
+    left: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.400);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.700);
+    transition: transform 0.5s;
+    transform: translate(-50%) scale(105%); 
 }
 body > main > section > div#img1{
     background: black url(../imagens/horadorushcerto.jpg) no-repeat;
@@ -87,6 +91,14 @@ body > main > section#obgletrap1{
     transform: translate(-50%, 120%);
     display: block;
 }
+body > main > section#obgletrap1:hover{
+    position: absolute;
+    left: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.400);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.700);
+    transition: transform 0.5s;
+    transform: translate(-50%, 120%) scale(105%); 
+}
 body > main > section > div#img2{
     background: black url(../imagens/obgletrap1certo.jpg) no-repeat;
     background-size: cover;
@@ -131,6 +143,14 @@ body > main > section#obgletrap2{
     box-shadow: 0px 0px 10px black;
     transform: translate(-50%,220%);
     display: block;
+}
+body > main > section#obgletrap2:hover{
+    position: absolute;
+    left: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.400);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.700);
+    transition: transform 0.5s;
+    transform: translate(-50%, 220%) scale(105%); 
 }
 body > main > section > div#img3{
     background: black url(../imagens/obgletrap2certo.jpg) no-repeat;
