@@ -51,6 +51,7 @@ body > main > section > div#img1{
     background: black url(../imagens/horadorushcerto.jpg) no-repeat;
     background-size: cover;
     height: 280px;
+    background-position: center center;
 }
 body > main > section > div#text1{
     background-color: #ff0167;
@@ -103,6 +104,7 @@ body > main > section > div#img2{
     background: black url(../imagens/obgletrap1certo.jpg) no-repeat;
     background-size: cover;
     height: 280px;
+    background-position: center center;
 }
 body > main > section > div#text2{
     background-color: #24D056;
@@ -156,6 +158,7 @@ body > main > section > div#img3{
     background: black url(../imagens/obgletrap2certo.jpg) no-repeat;
     background-size: cover;
     height: 280px;
+    background-position: center center;
 }
 body > main > section > div#text3{
     background-color: #650101;
