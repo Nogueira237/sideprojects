@@ -1,2 +1,62 @@
 @charset "UTF-8";
 /*Mobile*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Passion+One&family=Roboto&family=Sriracha&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+body, html{
+
+    background-color: #7300E5;
+}
+main{
+    position: relative;
+}
+body > main > section#horadorush{
+    position: absolute;
+    left: 50%;
+
+    background-color: white;
+    width: 60vw;
+    text-align: center;
+    margin: auto;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px black;
+    transform: translate(-50%,20%); 
+}
+    
+
+body > main > section > div#img1{
+    background: black url(../imagens/horadorushcerto.jpg) no-repeat;
+    background-size: cover;
+    height: 280px;
+}
+body > main > section > div#text1{
+    background-color: #ff0167;
+    color: white;
+}
+body > main > section > div#text1 > h1{
+    padding-bottom: 8px;
+    padding-top: 4px;
+
+}
+body > main > section > div#text1 > p{
+    padding: 8px;
+}
+body > main > section > div#text1 > a{
+    text-decoration: none;
+    color: white;
+    background-color: #91003a;
+    font-weight: bolder;
+    display: block;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+body > main > section > div#text1 > a:hover{
+    background-color: #520021;
+}
