@@ -20,7 +20,7 @@
     }
     main{
         margin: 145px 215px;
-        height: 439px;
+        height: 440px;
         width:1107px;
     }
     /*Hora do rush*/
@@ -58,4 +58,5 @@
         box-shadow: 0px 0px 10px black;
         display: inline-block;
     }
+    /*footer*/
 }

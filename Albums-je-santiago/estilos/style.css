@@ -173,7 +173,7 @@ body > main > section > div#text3 > a:hover{
 footer{
     background-color: #37006e;
     color: white;
-    height: 4vh;  
+    height: 4%;  
 }
 footer > div{
     padding: 5px;
@@ -182,5 +182,11 @@ footer > div{
 footer > div > a{
     text-decoration: none;
     font-weight: bold;
+    color: rgba(255, 255, 255, 0.900);
+    cursor: pointer;
+}
+footer > div > a:hover{
+    text-decoration: none;
     color: white;
+    cursor: pointer;
 }
